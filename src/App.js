@@ -63,7 +63,7 @@ function App() {
 
 
       <header style={{ backgroundColor: "red" }} className="show-when-mobile">
-        <h1>Courses 4 Arab</h1>
+        <h1>React</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
@@ -136,7 +136,7 @@ function App() {
         HTML &amp; CSS only
       </main>
       <footer>
-        Designed and developed by Courses4Arab.com
+        React course
         <span>🧡</span>
       </footer>
     </>
