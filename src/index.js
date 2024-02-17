@@ -6,10 +6,30 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Home from './pages/home';
+import Html from './pages/html';
+import Css from './pages/css';
+import Javascript from './pages/javascript';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Home/>,
+    errorElement:<p>404 Not found</p> 
+  },
+  {
+    path: "/html",
+    element: <Html/>,
+   
+  },
+  {
+    path: "/css",
+    element: <Css/>,
+   
+  },
+  {
+    path: "/js",
+    element: <Javascript/>,
+   
   },
 ]);
 
