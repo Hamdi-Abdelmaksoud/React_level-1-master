@@ -1,43 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import Home from './pages/home';
-import Html from './pages/html';
-import Css from './pages/css';
-import Javascript from './pages/javascript';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/home";
+import HTML from "./pages/html";
+import Css from "./pages/css";
+import Javascript from "./pages/javascript";
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
-    errorElement:<p>404 Not found</p> 
+    element: <Home />,
+    errorElement: <h1>SORROY.........</h1>,
   },
+
   {
     path: "/html",
-    element: <Html/>,
-   
+    element: <HTML />,
   },
+
   {
     path: "/css",
-    element: <Css/>,
-   
+    element: <Css />,
   },
   {
-    path: "/js",
-    element: <Javascript/>,
-   
+    path: "/javascript",
+    element: <Javascript />,
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
- 

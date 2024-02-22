@@ -1,7 +1,7 @@
+ 
+
 function App() {
-  return (
-  <h1>react</h1>
-  );
+  return <div>App.js file</div>;
 }
 
 export default App;
