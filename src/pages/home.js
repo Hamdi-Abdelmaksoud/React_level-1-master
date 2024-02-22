@@ -10,9 +10,6 @@ const Home = () => {
     <>
 
     <Header />   
-
-   
-    
     <main>
       Home Page
     </main>

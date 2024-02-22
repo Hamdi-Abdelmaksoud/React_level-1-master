@@ -1,6 +1,3 @@
-
-
-
 import Header from '../comp/header';
 import Footer from '../comp/Footer';
 

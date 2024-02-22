@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
       <header className="hide-when-mobile">
-        <h1>c4a.dev</h1>
+        <h1>React</h1>
         <ul className="flex">
           <li className="main-list">
             <a className="main-link" href="/html">
