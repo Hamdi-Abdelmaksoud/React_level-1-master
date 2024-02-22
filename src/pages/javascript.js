@@ -1,16 +1,11 @@
-
-
 import Header from '../comp/header';
 import Footer from '../comp/Footer';
-
-
+import MainContent from '../comp/MainContent';
 const Javascript = () => {
   return (
     <>
     <Header />
-    <main>
-    Javascript Page
-    </main>
+    <MainContent pageName="HTML" />
     <Footer />
   </>
   );
