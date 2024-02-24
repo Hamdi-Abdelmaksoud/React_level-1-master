@@ -3,10 +3,12 @@ import   './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="ali">
-      React
-      <span>🧡</span>
-    </footer>
+  <div className="myFooter">
+      <footer className="ali">
+        React
+        <span>🧡</span>
+      </footer>
+  </div>
   );
 };
 
