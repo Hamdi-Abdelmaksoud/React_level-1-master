@@ -4,7 +4,7 @@ import   './Footer.css';
 const Footer = () => {
   return (
     <footer className="ali">
-      Designed and developed by Courses4Arab.com
+      React
       <span>🧡</span>
     </footer>
   );
