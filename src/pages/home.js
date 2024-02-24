@@ -8,9 +8,14 @@ import MainContent from '../comp/MainContent';
 
 const Home = () => {
   return (
-  <>
+    <>
+
     <Header />   
-    <MainContent pageName="HOME" />
+
+    <MainContent   pageName="HOME Page"         />   
+
+
+
     <Footer />
   </>
   );
